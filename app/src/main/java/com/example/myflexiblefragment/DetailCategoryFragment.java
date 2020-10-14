@@ -12,13 +12,11 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
+@SuppressWarnings("FieldCanBeLocal")
 public class DetailCategoryFragment extends Fragment implements View.OnClickListener {
     private TextView tvCategoryName;
     private TextView tvCategoryDescription;
-    @SuppressWarnings("FieldCanBeLocal")
     private Button btnProfile;
-    @SuppressWarnings("FieldCanBeLocal")
     private Button btnShowDialog;
     public static String EXTRA_NAME = "extra_name";
     private String description;

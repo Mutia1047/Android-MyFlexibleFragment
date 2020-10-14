@@ -10,9 +10,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-
+@SuppressWarnings("FieldCanBeLocal")
 public class OptionDialogFragment extends DialogFragment implements View.OnClickListener {
-    @SuppressWarnings("FieldCanBeLocal")
     private Button btnChoose, btnClose;
     private RadioGroup rgOptions;
     private RadioButton rbSaf, rbMou, rbLvg, rbMoyes;

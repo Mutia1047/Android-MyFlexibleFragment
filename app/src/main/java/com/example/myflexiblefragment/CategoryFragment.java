@@ -10,9 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-
+@SuppressWarnings("FieldCanBeLocal")
 public class CategoryFragment extends Fragment implements View.OnClickListener {
-    @SuppressWarnings("FieldCanBeLocal")
     private Button btnDetailCategory;
     public CategoryFragment() {
         // Required empty public constructor
